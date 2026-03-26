@@ -103,42 +103,6 @@ Metrikler `results.csv` üzerinden alınmıştır.
 <img src="train/labels.jpg" alt="Labels summary" width="50%">
 <img src="train/labels_correlogram.jpg" alt="Labels correlogram" width="50%">
 
-<h2>Görsel Demo (Validation Tahmin Örnekleri)</h2>
-
-Aşağıdaki görseller, aynı validation batch’i için ground-truth ve model tahminlerini yan yana incelemeye uygundur.
-
-<h3>Batch 0</h3>
-
-- Ground-truth: `val_batch0_labels.jpg`
-- Prediction: `val_batch0_pred.jpg`
-
-<img src="train/val_batch0_labels.jpg" alt="Val batch 0 — labels (ground-truth)" width="50%">
-<img src="train/val_batch0_pred.jpg" alt="Val batch 0 — predictions" width="50%">
-
-<h3>Batch 1</h3>
-
-- Ground-truth: `val_batch1_labels.jpg`
-- Prediction: `val_batch1_pred.jpg`
-
-<img src="train/val_batch1_labels.jpg" alt="Val batch 1 — labels (ground-truth)" width="50%">
-<img src="train/val_batch1_pred.jpg" alt="Val batch 1 — predictions" width="50%">
-
-<h3>Batch 2</h3>
-
-- Ground-truth: `val_batch2_labels.jpg`
-- Prediction: `val_batch2_pred.jpg`
-
-<img src="train/val_batch2_labels.jpg" alt="Val batch 2 — labels (ground-truth)" width="50%">
-<img src="train/val_batch2_pred.jpg" alt="Val batch 2 — predictions" width="50%">
-
-<h2>Eğitimden Örnekler (Train Batches)</h2>
-
-Eğitim sırasında kullanılan batch örnekleri:
-
-<img src="train/train_batch0.jpg" alt="Train batch 0" width="50%">
-<img src="train/train_batch1.jpg" alt="Train batch 1" width="50%">
-<img src="train/train_batch2.jpg" alt="Train batch 2" width="50%">
-
 <h2>Dosyalar ve Ne İşe Yarar?</h2>
 
 - `args.yaml`: eğitim parametreleri
@@ -165,5 +129,3 @@ tensorboard --logdir .
 <h2>Lisans / Atıf</h2>
 
 Bu çalışma TÜBİTAK 2209-A (2023/2) kapsamında desteklenmiştir. Akademik/kurumsal kullanımda uygun atıf verilmesi önerilir.
-
-Bu projede kullanılan eğitim görselleri, açık kaynaklı araştırma ve eğitim amaçlı (Non-commercial/Academic research) derlenmiştir. Görsellerin bir kısmı genel erişime açık ilan platformlarından (sahibinden.com, arabam.com vb.) alınmış olup, görseller üzerindeki tüm mülkiyet hakları ilgili platformlara ve içerik sahiplerine aittir. Proje kapsamında araç plakaları kişisel verilerin korunması amacıyla sansürlenmiştir. Hak sahiplerinin talebi doğrultusunda ilgili görseller veri setinden kaldırılabilir.
