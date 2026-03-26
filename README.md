@@ -71,7 +71,7 @@ Metrikler `results.csv` üzerinden alınmıştır.
 
 `results.png`, epoch boyunca loss ve metrik trendlerini özetler.
 
-![Training results summary](results.png)
+<img src="train/results.png" alt="Training results summary" width="50%">
 
 <h3>Precision / Recall / F1 / PR eğrileri</h3>
 
@@ -80,10 +80,10 @@ Metrikler `results.csv` üzerinden alınmıştır.
 - `F1_curve.png`: F1 skoru davranışı (precision–recall dengesi)
 - `PR_curve.png`: Precision-Recall eğrisi (eşik değiştikçe trade-off)
 
-![Precision curve](P_curve.png)
-![Recall curve](R_curve.png)
-![F1 curve](F1_curve.png)
-![PR curve](PR_curve.png)
+<img src="train/P_curve.png" alt="Precision curve" width="50%">
+<img src="train/R_curve.png" alt="Recall curve" width="50%">
+<img src="train/F1_curve.png" alt="F1 curve" width="50%">
+<img src="train/PR_curve.png" alt="PR curve" width="50%">
 
 <h2>Değerlendirme Artefaktları</h2>
 
@@ -92,16 +92,16 @@ Metrikler `results.csv` üzerinden alınmıştır.
 - `confusion_matrix.png`: ham confusion matrix
 - `confusion_matrix_normalized.png`: **normalized confusion matrix**, sınıflar arası karışmaları daha net görselleştirir (ör. **plaka** ↔ **engelli sembolü** yanlış sınıflandırmaları).
 
-![Confusion matrix](confusion_matrix.png)
-![Normalized confusion matrix](confusion_matrix_normalized.png)
+<img src="train/confusion_matrix.png" alt="Confusion matrix" width="50%">
+<img src="train/confusion_matrix_normalized.png" alt="Normalized confusion matrix" width="50%">
 
 <h3>Dataset etiket istatistikleri</h3>
 
 - `labels.jpg`: etiket dağılımı / örnekler özeti
 - `labels_correlogram.jpg`: etiket korelasyon grafiği (dataset yapısı hakkında ipucu)
 
-![Labels summary](labels.jpg)
-![Labels correlogram](labels_correlogram.jpg)
+<img src="train/labels.jpg" alt="Labels summary" width="50%">
+<img src="train/labels_correlogram.jpg" alt="Labels correlogram" width="50%">
 
 <h2>Görsel Demo (Validation Tahmin Örnekleri)</h2>
 
