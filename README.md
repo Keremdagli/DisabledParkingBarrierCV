@@ -43,27 +43,27 @@ Metrikler `results.csv` üzerinden alınmıştır.
 
 <h3>En iyi mAP50-95 (daha “zor” ve genelleme odaklı metrik)</h3>
 
-- **Epoch**: 96  
-- **Precision**: 0.98839  
-- **Recall**: 0.95112  
-- **mAP50**: 0.97957  
-- **mAP50-95**: 0.65803  
+- **Epoch**: 96
+- **Precision**: 0.98839
+- **Recall**: 0.95112
+- **mAP50**: 0.97957
+- **mAP50-95**: 0.65803
 
 <h3>En iyi mAP50</h3>
 
-- **Epoch**: 108  
-- **Precision**: 0.99446  
-- **Recall**: 0.98810  
-- **mAP50**: 0.99477  
-- **mAP50-95 (aynı epoch)**: 0.54546  
+- **Epoch**: 108
+- **Precision**: 0.99446
+- **Recall**: 0.98810
+- **mAP50**: 0.99477
+- **mAP50-95 (aynı epoch)**: 0.54546
 
 <h3>Eğitim sonu (son kaydedilen epoch)</h3>
 
-- **Epoch**: 116  
-- **Precision**: 0.99387  
-- **Recall**: 0.98452  
-- **mAP50**: 0.99477  
-- **mAP50-95**: 0.60826  
+- **Epoch**: 116
+- **Precision**: 0.99387
+- **Recall**: 0.98452
+- **mAP50**: 0.99477
+- **mAP50-95**: 0.60826
 
 <h2>Eğitim Eğrileri ve Grafikler</h2>
 
@@ -166,3 +166,4 @@ tensorboard --logdir .
 
 Bu çalışma TÜBİTAK 2209-A (2023/2) kapsamında desteklenmiştir. Akademik/kurumsal kullanımda uygun atıf verilmesi önerilir.
 
+Bu projede kullanılan eğitim görselleri, açık kaynaklı araştırma ve eğitim amaçlı (Non-commercial/Academic research) derlenmiştir. Görsellerin bir kısmı genel erişime açık ilan platformlarından (sahibinden.com, arabam.com vb.) alınmış olup, görseller üzerindeki tüm mülkiyet hakları ilgili platformlara ve içerik sahiplerine aittir. Proje kapsamında araç plakaları kişisel verilerin korunması amacıyla sansürlenmiştir. Hak sahiplerinin talebi doğrultusunda ilgili görseller veri setinden kaldırılabilir.
